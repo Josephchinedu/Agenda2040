@@ -1,0 +1,187 @@
+body{
+	padding: 0;
+	margin: 0;
+	color: black;
+	height: 100%;
+	color: white;
+}
+
+/* online font link */
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700');
+
+
+
+img{
+	max-width: 100%;
+}
+
+#background-full-image{
+	background-image: url('image/slide2 agenda 2040.jpg');
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	position: relative;
+}
+
+#background-full-image1{
+	background-image: url('image/slider-01 agenda2040.jpg');
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	position: relative;
+}
+
+
+#background-full-image2{
+	background-image: url('image/slider22 agenda 2040.jpg');
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	position: relative;
+}
+
+
+
+
+.head{
+	position: relative;
+	right: 40px;
+}
+
+#move{
+	padding-left: 0 !important;
+	color: #FF6800;
+	font-weight: bolder;
+	font-size: small;
+}
+
+.navbar{
+	padding: 20px;
+}
+
+.login{
+	padding: 10px;
+	width: 130px;
+}
+
+
+#dii{
+	color: white;
+}
+
+*{
+	box-sizing: border-box;
+	font-family: 'Muli', sans-serif;
+}
+
+
+/* :::::: Slide Show Container :::::: */
+.slideshow-container{
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+}
+
+
+/* hide the images by default */
+.mySlides{
+	display: none;
+}
+
+
+
+
+/* ::::: The dots :::::: */
+.dot{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50px;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+	background-color: #717171;
+}
+
+
+
+/* Fading animation */
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 5.5s;\
+	animation-name: fade;
+	animation-duration: 5.5s;
+}
+
+
+@-webkit-keyframes fade{
+	from{opacity: .4}
+	to{opacity: 1}
+}
+
+@keyframes fade{
+	from{opacity: .4}
+	to{opacity: 1}
+}
+
+img{
+	vertical-align: middle;
+}
+
+
+/* Mobile css */
+@media only screen and (max-width: 968px) {
+	.head {
+		position: relative;
+		left: 20px;
+	}
+
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h2 p div {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+@media only screen and (max-width: 968px) {
+	#kkk {
+		padding-top: 20px;
+	}
+}
+
+
+
+.rolex{
+	padding: 0 15px;
+}
